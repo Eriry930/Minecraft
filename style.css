@@ -1,0 +1,97 @@
+body{
+    background-image: url(./imagenes/Desktop\ -\ 3.png);
+    font:normal oblique;
+    font-size: 30px;
+    line-height: 44px;
+    
+
+}
+
+.encabezado{
+    
+    background-image: url(./imagenes/minecraft\ personaje.png);
+    background-repeat: no-repeat 0;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon (00, 100% 0, 100% 79%, 50% 100%, 0 79%); 
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    font-size: 20px;
+    clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0% 0%);
+    
+}
+
+.img{
+    width: 15em;
+    image-orientation: inherit;
+}
+
+.primera{
+    display:grid;
+    grid-template-rows: 33% 33% 33%;
+    padding: 0%;
+    
+}
+p{
+    text-align-last: left;
+}
+
+#nombre{
+    position: relative;
+    color: white;
+    padding-left: 60%;
+    padding-bottom: 5%;    
+
+}
+
+
+#menu{
+    text-decoration: none;
+    line-height: normal;
+    color: white;
+    display: inline-block;
+    
+
+}
+
+#menu :hover{
+    background-color: rgb(231, 151, 3);
+    border-radius: 100px;
+    
+}
+
+.main{
+    padding-top: 20rem;
+    
+}
+
+
+.banner{
+    width: 10px;
+    height: 10px;
+    border: 10px;
+    margin: 10px;
+    background-size: 100% 100%;
+    animation-name: banner 10s infinite;
+    
+
+
+}
+
+@keyframes identifier {
+    0%, 30%{
+        background-image: url(./Diapositiva1.PNG); opacity: 1;}
+    31%, 34%{
+        opacity: 0.1;
+    }    
+    35%, 65%{
+        background-image: url(./Diapositiva5.PNG);opacity: 1;}
+        66%, 69%{
+            opacity: 0.1;}
+    70%, 100%{
+        background-image: url(./Diapositiva4.PNG);opacity: 1;}    
+
+}
