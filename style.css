@@ -1,10 +1,16 @@
+
 body{
-    background-image: url(./imagenes/Desktop\ -\ 3.png);
+    background-image: url(./imagenes/Desktop\ -\ 3.png); 
     font:normal oblique;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 44px;
     
 
+}
+
+#logo{
+    padding: 1%;
+    object-position: unset;
 }
 
 .encabezado{
@@ -13,30 +19,77 @@ body{
     background-repeat: no-repeat 0;
     background-position: center;
     background-size: cover;
-    clip-path: polygon (00, 100% 0, 100% 79%, 50% 100%, 0 79%); 
     position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
+    left: 0%;
+    top: 0%;
+    right: 0%;
     overflow: hidden;
-    font-size: 20px;
     clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0% 0%);
+    
+    
+}
+
+#menu{
+    font-size: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    color: white;
+    line-height:inherit;
+    display: inline-block;
+    
+}
+
+
+#menu :hover{
+    background-color: rgb(231, 151, 3);
+    border-radius: 8px;
+    
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    gap: 1em;
+    grid-template-rows: minmax(50px,auto);
+        
+    
+}
+
+.main>div{
+    display: grid; 
+    gap: 1em;
+    padding-top: 25rem;   
+    
+
+}
+
+.p{
+    position:absolute; 
+    left: 50px;
+    display: inline;
+    
+
+     
+    
+}
+.t{
+    display: block;
+    position:absolute; 
+    height: auto;
+    max-width: 100%;
+    padding-top: 1em;
+
     
 }
 
 .img{
-    width: 15em;
-    image-orientation: inherit;
-}
+    align-self: auto;
+    border: 2px solid crimson;
+    height: auto;
+    max-width: 100%;
+        
 
-.primera{
-    display:grid;
-    grid-template-rows: 33% 33% 33%;
-    padding: 0%;
-    
-}
-p{
-    text-align-last: left;
 }
 
 #nombre{
@@ -47,26 +100,6 @@ p{
 
 }
 
-
-#menu{
-    text-decoration: none;
-    line-height: normal;
-    color: white;
-    display: inline-block;
-    
-
-}
-
-#menu :hover{
-    background-color: rgb(231, 151, 3);
-    border-radius: 100px;
-    
-}
-
-.main{
-    padding-top: 20rem;
-    
-}
 
 
 .banner{
